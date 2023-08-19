@@ -1,0 +1,2422 @@
+[
+  {
+    "task": [
+      {
+        "id": "db8ab79e-2580-4e4c-8203-580cef110487",
+        "title": "Complete project proposal",
+        "description": "This task involves analyzing market trends",
+        "status": "Pending",
+        "created_at": "2023-08-18T11:38:50.601Z",
+        "updated_at": "2023-08-18T15:53:04.446Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7795e046-9e8b-4a15-8633-b7d2e6bcccae",
+        "title": "Review marketing campaign",
+        "description": "The task requires collaboration with the design team",
+        "status": "In Progress",
+        "created_at": "2023-08-18T17:03:23.734Z",
+        "updated_at": "2023-08-18T23:43:48.335Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "555e9938-447e-4700-96eb-fe00d979d7eb",
+        "title": "Develop new feature",
+        "description": "The task involves coding in Python",
+        "status": "Completed",
+        "created_at": "2023-08-18T19:33:57.152Z",
+        "updated_at": "2023-08-18T18:03:34.424Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc5805d9-840b-4c9a-92c0-b66cf521a750",
+        "title": "Prepare financial report",
+        "description": "The task requires financial analysis skills",
+        "status": "On Hold",
+        "created_at": "2023-08-19T05:10:54.867Z",
+        "updated_at": "2023-08-19T02:50:59.427Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f9e25c7-8cc7-47cd-bdcb-c88d47cc9be6",
+        "title": "Organize team meeting",
+        "description": "The task involves coordinating schedules",
+        "status": "Cancelled",
+        "created_at": "2023-08-19T05:57:58.871Z",
+        "updated_at": "2023-08-18T10:32:05.675Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "member": [
+      {
+        "id": "b4b801dd-510b-4299-a281-6d1e55ba031f",
+        "role": "Manager",
+        "status": "Active",
+        "created_at": "2023-08-19T03:26:29.511Z",
+        "updated_at": "2023-08-19T03:22:52.778Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a52a6ec3-e822-48b7-a82a-0bc94650bcef",
+        "role": "Developer",
+        "status": "Inactive",
+        "created_at": "2023-08-18T14:18:36.233Z",
+        "updated_at": "2023-08-18T10:19:29.652Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "86590c4c-a644-4d88-9aa1-6327f34f6e5a",
+        "role": "Designer",
+        "status": "Pending",
+        "created_at": "2023-08-18T23:24:18.860Z",
+        "updated_at": "2023-08-18T20:41:23.206Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "90ca9d41-9780-4984-8b4f-2d4f6b19c802",
+        "role": "Analyst",
+        "status": "Suspended",
+        "created_at": "2023-08-19T02:00:19.474Z",
+        "updated_at": "2023-08-18T20:50:11.632Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "466af22d-d4f2-4247-a94a-ad8867944830",
+        "role": "Tester",
+        "status": "Blocked",
+        "created_at": "2023-08-18T20:21:43.122Z",
+        "updated_at": "2023-08-19T05:13:08.400Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "cc3d98f0-4431-4edb-9cdd-cb19051fc4b7",
+        "status": "Sent",
+        "created_at": "2023-08-19T00:36:29.675Z",
+        "updated_at": "2023-08-19T01:42:20.372Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d89048e-4e55-4eab-8912-a28e6ff71457",
+        "status": "Accepted",
+        "created_at": "2023-08-19T08:43:37.834Z",
+        "updated_at": "2023-08-18T16:01:08.704Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1fd4246-3078-4f1e-93d9-a0fd7f4959de",
+        "status": "Declined",
+        "created_at": "2023-08-18T22:45:20.540Z",
+        "updated_at": "2023-08-19T03:06:18.494Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab3fe32a-9988-4c7c-8fa6-e11abeb355d5",
+        "status": "Expired",
+        "created_at": "2023-08-19T09:07:23.159Z",
+        "updated_at": "2023-08-18T19:39:59.435Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0053c986-a584-49a1-8e42-2b587f795c0d",
+        "status": "Cancelled",
+        "created_at": "2023-08-18T19:40:19.723Z",
+        "updated_at": "2023-08-18T23:07:34.535Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ftp_setting": [
+      {
+        "id": "28166312-a179-4ca2-be95-c98786615c0d",
+        "host": "ftp.example.com",
+        "port": 83171,
+        "username": "user1",
+        "password": "pass1",
+        "created_at": "2023-08-18T14:04:02.675Z",
+        "updated_at": "2023-08-18T15:27:37.571Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bb3abd32-3980-4439-a55a-2d3fbf7c895a",
+        "host": "ftp2.example.com",
+        "port": 6050,
+        "username": "user2",
+        "password": "pass2",
+        "created_at": "2023-08-19T04:49:18.077Z",
+        "updated_at": "2023-08-18T11:29:43.341Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6edff80b-87eb-4040-b995-a26559719e1b",
+        "host": "ftp3.example.com",
+        "port": 97632,
+        "username": "user3",
+        "password": "pass3",
+        "created_at": "2023-08-19T04:50:42.710Z",
+        "updated_at": "2023-08-19T06:40:06.674Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8a851ac9-152b-4e80-a786-55022c1e78e8",
+        "host": "ftp4.example.com",
+        "port": 94112,
+        "username": "user4",
+        "password": "pass4",
+        "created_at": "2023-08-18T20:32:32.840Z",
+        "updated_at": "2023-08-19T06:51:17.769Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a703b6b2-d1c5-4541-bf7c-3a3d4d58cfc2",
+        "host": "ftp5.example.com",
+        "port": 2337,
+        "username": "user5",
+        "password": "pass5",
+        "created_at": "2023-08-18T13:48:29.138Z",
+        "updated_at": "2023-08-18T14:36:33.584Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b16301e1-293c-40f4-8f6c-35c53003aedf",
+        "email": "Imani4@yahoo.com",
+        "firstName": "Norma",
+        "lastName": "Gleason",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/368.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f54dcef5-65ff-46c9-a8b6-80cf2d37830e",
+        "email": "Rickey.Walter48@gmail.com",
+        "firstName": "Linnea",
+        "lastName": "Williamson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11360841",
+        "tenantId": null
+      },
+      {
+        "reference": "3c823837-36d3-47a0-8731-b00604616610",
+        "email": "Abbigail_Nolan@gmail.com",
+        "firstName": "Leonie",
+        "lastName": "Emmerich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26895439",
+        "tenantId": null
+      },
+      {
+        "reference": "ad814e03-b2db-43b3-a23b-059d91781a80",
+        "email": "Christy.Ward90@yahoo.com",
+        "firstName": "Maximillian",
+        "lastName": "McKenzie",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/641.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "462ce618-47d7-4cd4-989f-3c8ea337789a",
+        "email": "Reina.Moen1@hotmail.com",
+        "firstName": "Edna",
+        "lastName": "Simonis",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/7.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "task": [
+      {
+        "id": "31dbe53f-fb64-4ff5-9ddd-0f9ff7f2714d",
+        "title": "Complete project report",
+        "description": "Lorem ipsum dolor sit amet",
+        "status": "Pending",
+        "created_at": "2023-08-19T03:31:28.874Z",
+        "updated_at": "2023-08-18T16:02:25.092Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e434fdb5-5c48-4704-88a0-c2898e985467",
+        "title": "Review website design",
+        "description": "Consectetur adipiscing elit",
+        "status": "In progress",
+        "created_at": "2023-08-19T10:10:21.060Z",
+        "updated_at": "2023-08-18T11:55:12.299Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "244626cb-b38f-4b46-a3fe-c79e5c1af15e",
+        "title": "Fix bug in backend code",
+        "description": "Sed do eiusmod tempor incididunt",
+        "status": "Completed",
+        "created_at": "2023-08-18T13:57:23.931Z",
+        "updated_at": "2023-08-19T05:37:40.913Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3facdb15-6175-408c-bc9d-5036cdeb639c",
+        "title": "Create user registration form",
+        "description": "Ut labore et dolore magna aliqua",
+        "status": "On hold",
+        "created_at": "2023-08-19T09:10:17.527Z",
+        "updated_at": "2023-08-18T19:47:51.298Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "51b01ded-54c2-4d98-9a04-5adaf9f85cc0",
+        "title": "Implement payment gateway",
+        "description": "Ut enim ad minim veniam",
+        "status": "Cancelled",
+        "created_at": "2023-08-19T03:47:57.080Z",
+        "updated_at": "2023-08-19T05:56:29.528Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "member": [
+      {
+        "id": "0d3f9aef-0cd7-4813-a2ec-af71f1cf6966",
+        "role": "Admin",
+        "status": "Active",
+        "created_at": "2023-08-18T21:02:28.160Z",
+        "updated_at": "2023-08-19T00:41:18.669Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2e8103c7-11c7-4479-aa7e-87d8553b1ff9",
+        "role": "Manager",
+        "status": "Inactive",
+        "created_at": "2023-08-18T18:23:06.780Z",
+        "updated_at": "2023-08-18T19:53:54.479Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "55f6baa4-d09e-41f9-b7e3-824b60fd78cb",
+        "role": "Developer",
+        "status": "Pending",
+        "created_at": "2023-08-19T01:18:34.545Z",
+        "updated_at": "2023-08-18T14:26:01.243Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e3ac975-6f65-4f8a-b26d-be85aa73cb82",
+        "role": "Designer",
+        "status": "Blocked",
+        "created_at": "2023-08-18T10:55:02.333Z",
+        "updated_at": "2023-08-18T13:23:56.105Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c31fc07-8686-43c7-ad9f-5224b9916782",
+        "role": "Tester",
+        "status": "Suspended",
+        "created_at": "2023-08-18T12:10:09.402Z",
+        "updated_at": "2023-08-19T03:17:35.962Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "a49efd05-b370-457b-b110-df475cc3e059",
+        "status": "Sent",
+        "created_at": "2023-08-19T02:37:47.019Z",
+        "updated_at": "2023-08-18T19:44:35.257Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d360f38-1b45-4660-a885-ee233e137f04",
+        "status": "Accepted",
+        "created_at": "2023-08-19T01:30:22.902Z",
+        "updated_at": "2023-08-18T17:55:01.712Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f7fc1449-e772-4ff4-be2b-82eea94e984b",
+        "status": "Declined",
+        "created_at": "2023-08-18T11:21:45.175Z",
+        "updated_at": "2023-08-18T15:53:19.494Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1166607d-8cce-477d-b6b3-035f01845de0",
+        "status": "Expired",
+        "created_at": "2023-08-18T10:27:40.961Z",
+        "updated_at": "2023-08-18T21:31:30.298Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0108d880-c11a-46f8-a262-34bcec478cee",
+        "status": "Cancelled",
+        "created_at": "2023-08-18T15:09:16.284Z",
+        "updated_at": "2023-08-19T08:51:17.651Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ftp_setting": [
+      {
+        "id": "c41d9623-0290-41c0-b044-b835f4b5277e",
+        "host": "ftp.example.com",
+        "port": 23342,
+        "username": "user1",
+        "password": "pass123",
+        "created_at": "2023-08-19T01:36:15.124Z",
+        "updated_at": "2023-08-18T11:46:07.998Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "152786da-e916-490d-b116-199f55bc7d59",
+        "host": "ftp.server.com",
+        "port": 57526,
+        "username": "user2",
+        "password": "pass456",
+        "created_at": "2023-08-19T09:31:07.457Z",
+        "updated_at": "2023-08-18T13:53:51.411Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ba725012-bcb2-47f1-bb33-cebf1648f4c9",
+        "host": "ftp.domain.com",
+        "port": 19543,
+        "username": "user3",
+        "password": "pass789",
+        "created_at": "2023-08-19T08:26:46.217Z",
+        "updated_at": "2023-08-18T18:11:00.687Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3ec0f49b-2f2b-45e4-b96f-ca4c7c3414c9",
+        "host": "ftp.test.com",
+        "port": 89212,
+        "username": "user4",
+        "password": "passabc",
+        "created_at": "2023-08-19T02:10:36.202Z",
+        "updated_at": "2023-08-18T15:52:20.075Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "cfc575b9-bb77-4676-a809-83d813563f78",
+        "host": "ftp.demo.com",
+        "port": 19321,
+        "username": "user5",
+        "password": "passxyz",
+        "created_at": "2023-08-19T02:11:38.521Z",
+        "updated_at": "2023-08-19T06:52:50.226Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "976ee502-2dde-4974-baf3-de98f4bd397d",
+        "email": "Alfredo_Bins55@hotmail.com",
+        "firstName": "Lempi",
+        "lastName": "Johns",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18833660",
+        "tenantId": null
+      },
+      {
+        "reference": "8d5d465f-d4a7-42cf-8441-429652187800",
+        "email": "Brant.Grant26@gmail.com",
+        "firstName": "Caterina",
+        "lastName": "Jacobson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61695288",
+        "tenantId": null
+      },
+      {
+        "reference": "0a70df15-95dd-48bc-adcd-274dc8c6442f",
+        "email": "Sonya_Pfeffer25@hotmail.com",
+        "firstName": "Alvera",
+        "lastName": "Ward",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/574.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "68a25be3-e689-4d9c-9f48-f2e8f69fc6bb",
+        "email": "Adalberto72@hotmail.com",
+        "firstName": "Eleazar",
+        "lastName": "Mante",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/920.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7a84b3c2-5d37-4ce8-9ce2-fab7f5e59957",
+        "email": "Vita31@gmail.com",
+        "firstName": "John",
+        "lastName": "Morissette-Pacocha",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83630351",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "task": [
+      {
+        "id": "5d1dc9c0-3167-449b-b569-b3777007f42c",
+        "title": "Complete project report",
+        "description": "This task requires thorough analysis",
+        "status": "Pending",
+        "created_at": "2023-08-18T11:22:04.873Z",
+        "updated_at": "2023-08-18T13:40:22.200Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8a0e03c-8cf1-435f-8291-1af481961879",
+        "title": "Review marketing strategy",
+        "description": "The task involves collaboration with the design team",
+        "status": "In Progress",
+        "created_at": "2023-08-18T10:19:50.687Z",
+        "updated_at": "2023-08-18T23:09:01.624Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8b05a46b-da34-4d8f-a087-a1cf6a4839bb",
+        "title": "Fix bug in software",
+        "description": "The task is critical and needs immediate attention",
+        "status": "Completed",
+        "created_at": "2023-08-18T21:22:45.171Z",
+        "updated_at": "2023-08-18T11:03:15.458Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fbb86fa2-fcf3-4ce4-a119-e15d246f9484",
+        "title": "Prepare presentation slides",
+        "description": "The task requires strong attention to detail",
+        "status": "On Hold",
+        "created_at": "2023-08-18T18:21:33.725Z",
+        "updated_at": "2023-08-18T11:27:28.316Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b22fbbb-eafe-4cc3-8923-4a0be2f12cab",
+        "title": "Conduct user research",
+        "description": "The task involves data analysis",
+        "status": "Cancelled",
+        "created_at": "2023-08-18T20:17:57.176Z",
+        "updated_at": "2023-08-18T19:11:26.291Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "member": [
+      {
+        "id": "439a60d5-35f9-4aa4-b21b-7666086f3165",
+        "role": "Manager",
+        "status": "Active",
+        "created_at": "2023-08-18T13:28:20.809Z",
+        "updated_at": "2023-08-18T21:07:09.822Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fcbca2ea-2917-4b96-89ac-62649993ccf0",
+        "role": "Developer",
+        "status": "Inactive",
+        "created_at": "2023-08-19T07:07:13.639Z",
+        "updated_at": "2023-08-18T23:31:26.274Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d2744186-215c-4c05-a845-f65f8883d15b",
+        "role": "Designer",
+        "status": "Pending",
+        "created_at": "2023-08-19T08:03:37.223Z",
+        "updated_at": "2023-08-19T03:41:33.819Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e5cf5973-3936-418b-a617-de639dd823ed",
+        "role": "Tester",
+        "status": "Suspended",
+        "created_at": "2023-08-18T10:50:24.282Z",
+        "updated_at": "2023-08-19T09:33:42.973Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "822f1ab1-c064-47c7-bded-539853666740",
+        "role": "Analyst",
+        "status": "Blocked",
+        "created_at": "2023-08-18T21:53:02.479Z",
+        "updated_at": "2023-08-19T03:43:42.359Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "fd68e3a5-7022-48cc-a69b-a45f2329baa0",
+        "status": "Sent",
+        "created_at": "2023-08-18T12:44:24.515Z",
+        "updated_at": "2023-08-18T15:46:04.724Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d419fd72-0593-42ea-a486-bd5e822fd5f0",
+        "status": "Accepted",
+        "created_at": "2023-08-18T12:39:49.874Z",
+        "updated_at": "2023-08-18T21:50:56.886Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9f2f659-bf21-48b2-b765-05366aadce71",
+        "status": "Declined",
+        "created_at": "2023-08-18T14:03:20.894Z",
+        "updated_at": "2023-08-19T10:17:52.720Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6852c150-6b2a-4df7-9bc1-4808455a4c47",
+        "status": "Expired",
+        "created_at": "2023-08-18T22:57:01.836Z",
+        "updated_at": "2023-08-19T00:32:42.009Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c75f5467-c55f-49fb-8521-dcb5d6dfb7e4",
+        "status": "Cancelled",
+        "created_at": "2023-08-18T14:35:47.675Z",
+        "updated_at": "2023-08-18T22:03:18.728Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ftp_setting": [
+      {
+        "id": "c8a668d9-f7f2-4e02-afd7-3149e142a078",
+        "host": "ftp.example.com",
+        "port": 81792,
+        "username": "john.doe",
+        "password": "P@ssw0rd1",
+        "created_at": "2023-08-18T16:19:20.750Z",
+        "updated_at": "2023-08-19T04:01:22.911Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0bde3879-7f10-405a-96d8-0b24fafe80e6",
+        "host": "ftp.server.com",
+        "port": 89162,
+        "username": "jane.smith",
+        "password": "SecurePassword123",
+        "created_at": "2023-08-18T16:08:40.816Z",
+        "updated_at": "2023-08-19T04:07:46.250Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b61f7e64-8a81-42d1-adf5-afe6b0e229a5",
+        "host": "myftpserver.com",
+        "port": 66146,
+        "username": "michael.brown",
+        "password": "FTP@ccess!23",
+        "created_at": "2023-08-18T17:48:54.392Z",
+        "updated_at": "2023-08-18T21:10:14.324Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fb5eaf2a-2ba3-4df0-8ee1-04c52b0ab798",
+        "host": "ftp.domain.com",
+        "port": 57422,
+        "username": "sarah.wilson",
+        "password": "Passw0rd!",
+        "created_at": "2023-08-19T08:23:47.532Z",
+        "updated_at": "2023-08-19T04:40:34.736Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5640428d-b011-4dad-be2c-e598f6b1cb31",
+        "host": "ftp.testserver.com",
+        "port": 27109,
+        "username": "david.jones",
+        "password": "MySecretPassword",
+        "created_at": "2023-08-18T16:49:44.839Z",
+        "updated_at": "2023-08-19T02:42:34.701Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "10760d1e-c819-4cc9-98c9-c41b4b3adfec",
+        "email": "Anya82@gmail.com",
+        "firstName": "Domingo",
+        "lastName": "Stark",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48665179",
+        "tenantId": null
+      },
+      {
+        "reference": "a466d213-c708-441f-b273-62e5adf28923",
+        "email": "Jacey3@hotmail.com",
+        "firstName": "Kyra",
+        "lastName": "Batz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23551848",
+        "tenantId": null
+      },
+      {
+        "reference": "bdff0c4f-06e6-410d-939a-d39ab97d660f",
+        "email": "Margie_Cronin6@yahoo.com",
+        "firstName": "Mason",
+        "lastName": "Altenwerth",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87517136",
+        "tenantId": null
+      },
+      {
+        "reference": "430ce188-bcc2-4d49-8e0e-6936945799e3",
+        "email": "Sally_Dibbert@hotmail.com",
+        "firstName": "Connie",
+        "lastName": "Tromp",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/416.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "892ae813-9424-4ab3-80d5-bb6a9156f7cb",
+        "email": "Jammie.Kessler68@yahoo.com",
+        "firstName": "Rosalinda",
+        "lastName": "Thiel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35959845",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "task": [
+      {
+        "id": "99e40595-e585-40d2-9355-a0ec6d69d76d",
+        "title": "Task 1",
+        "description": "Complete project report",
+        "status": "Pending",
+        "created_at": "2023-08-18T22:06:37.168Z",
+        "updated_at": "2023-08-18T22:34:59.689Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "39911dd5-84a3-4dfe-adde-d910ffd3f485",
+        "title": "Task 2",
+        "description": "Fix bug in website",
+        "status": "In Progress",
+        "created_at": "2023-08-18T11:05:14.968Z",
+        "updated_at": "2023-08-18T21:15:25.396Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a3ff00a4-42f2-46ca-82a5-13ab30e95c49",
+        "title": "Task 3",
+        "description": "Create new feature",
+        "status": "Completed",
+        "created_at": "2023-08-18T21:25:40.221Z",
+        "updated_at": "2023-08-18T18:18:19.802Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d3fbed3-b069-4a80-b8cc-ae52cb83f912",
+        "title": "Task 4",
+        "description": "Test application",
+        "status": "On Hold",
+        "created_at": "2023-08-18T18:33:35.673Z",
+        "updated_at": "2023-08-18T12:02:33.878Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "61d63063-c4c4-4734-b7a8-c269a70eaa6f",
+        "title": "Task 5",
+        "description": "Optimize database performance",
+        "status": "Cancelled",
+        "created_at": "2023-08-19T04:56:46.674Z",
+        "updated_at": "2023-08-19T09:12:11.676Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "member": [
+      {
+        "id": "62cd9fdc-2f99-442b-b5f2-822b107d62d4",
+        "role": "Manager",
+        "status": "Active",
+        "created_at": "2023-08-19T00:46:56.421Z",
+        "updated_at": "2023-08-18T10:27:14.524Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "31851684-4672-471a-9fb8-2c0bc4faee2b",
+        "role": "Developer",
+        "status": "Inactive",
+        "created_at": "2023-08-18T17:41:24.261Z",
+        "updated_at": "2023-08-18T21:33:33.870Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b3b2e9a-4e24-4cbf-ac30-293eb140c51a",
+        "role": "Designer",
+        "status": "Pending",
+        "created_at": "2023-08-18T12:20:37.793Z",
+        "updated_at": "2023-08-19T08:03:11.910Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9cb5f9d0-b522-418c-82ba-d0c256f4afc6",
+        "role": "Tester",
+        "status": "Suspended",
+        "created_at": "2023-08-18T12:53:04.050Z",
+        "updated_at": "2023-08-18T22:48:20.137Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ef742b7b-5b98-4777-bb62-95b4af36a8ef",
+        "role": "Analyst",
+        "status": "Blocked",
+        "created_at": "2023-08-19T03:48:57.934Z",
+        "updated_at": "2023-08-18T13:03:23.883Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "9b1e8146-4d51-41a0-bcfa-90795265ca47",
+        "status": "Sent",
+        "created_at": "2023-08-18T16:07:07.024Z",
+        "updated_at": "2023-08-19T09:18:16.803Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "661accd1-b522-4bc9-83ac-1e132c1979d2",
+        "status": "Accepted",
+        "created_at": "2023-08-19T04:12:21.825Z",
+        "updated_at": "2023-08-19T07:52:57.173Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b103595b-1fb7-4c61-9b9a-3ad024838885",
+        "status": "Declined",
+        "created_at": "2023-08-18T19:39:01.033Z",
+        "updated_at": "2023-08-18T15:22:22.881Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c3714892-3ab5-45bf-9305-51f8d32db62f",
+        "status": "Expired",
+        "created_at": "2023-08-18T22:00:37.420Z",
+        "updated_at": "2023-08-18T10:50:01.288Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8070b10a-39ee-4474-880d-e3abf23544e2",
+        "status": "Cancelled",
+        "created_at": "2023-08-19T04:18:15.659Z",
+        "updated_at": "2023-08-19T02:37:35.213Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ftp_setting": [
+      {
+        "id": "be47ab8b-63de-4ef6-aa2a-ec70e0682848",
+        "host": "ftp.example.com",
+        "port": 58492,
+        "username": "user1",
+        "password": "pass123",
+        "created_at": "2023-08-18T15:45:35.435Z",
+        "updated_at": "2023-08-18T16:35:29.051Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "21396801-d7d1-4b91-90c5-3085555336fd",
+        "host": "ftp2.example.com",
+        "port": 41286,
+        "username": "user2",
+        "password": "pass456",
+        "created_at": "2023-08-18T14:15:32.001Z",
+        "updated_at": "2023-08-18T14:53:02.631Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bb5e4887-8f59-4b11-b258-1fac33c597a8",
+        "host": "ftp3.example.com",
+        "port": 28899,
+        "username": "user3",
+        "password": "pass789",
+        "created_at": "2023-08-18T14:17:21.486Z",
+        "updated_at": "2023-08-18T14:04:45.424Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5167747b-7a78-4224-98b2-dd314864b723",
+        "host": "ftp4.example.com",
+        "port": 31387,
+        "username": "user4",
+        "password": "passabc",
+        "created_at": "2023-08-18T14:35:42.984Z",
+        "updated_at": "2023-08-18T20:14:47.443Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "516eb62a-235d-45cb-bb22-76230c32ee28",
+        "host": "ftp5.example.com",
+        "port": 76319,
+        "username": "user5",
+        "password": "passxyz",
+        "created_at": "2023-08-18T13:48:14.042Z",
+        "updated_at": "2023-08-18T13:20:55.887Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "885c5a24-be41-4105-906c-58ac98ca5fc2",
+        "email": "Ali.Swift@yahoo.com",
+        "firstName": "Emilia",
+        "lastName": "O'Keefe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/521.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "efb107f3-7e87-4ea1-8904-f1b1643d08c2",
+        "email": "Sigrid.King-Hansen@hotmail.com",
+        "firstName": "Eleanora",
+        "lastName": "Goldner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "deaa624b-3a06-4200-ac1a-bb6ca2697c92",
+        "email": "Camille_Schiller@yahoo.com",
+        "firstName": "Lyda",
+        "lastName": "Windler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1238.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fbd8c7e5-9f03-4d35-b724-ae929d0de111",
+        "email": "Icie.Olson56@gmail.com",
+        "firstName": "Cassidy",
+        "lastName": "Okuneva",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91034978",
+        "tenantId": null
+      },
+      {
+        "reference": "fef2a137-e9cc-4c6c-92fc-879b0a23f0a3",
+        "email": "Cindy_Crist92@yahoo.com",
+        "firstName": "Sebastian",
+        "lastName": "Kozey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68318968",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "task": [
+      {
+        "id": "deef6961-ed76-451b-b857-821adc454caa",
+        "title": "Complete project proposal",
+        "description": "Create a detailed project proposal for client",
+        "status": "Pending",
+        "created_at": "2023-08-19T04:04:21.785Z",
+        "updated_at": "2023-08-18T11:10:10.554Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c751b73e-20cc-4a78-9096-99ebef605d98",
+        "title": "Review marketing campaign",
+        "description": "Analyze the effectiveness of the marketing campaign",
+        "status": "In Progress",
+        "created_at": "2023-08-19T03:28:11.185Z",
+        "updated_at": "2023-08-18T13:04:20.282Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d758eaf9-9721-408a-bf6b-c77d0fb87ac1",
+        "title": "Develop new feature",
+        "description": "Design and code a new feature for the application",
+        "status": "Completed",
+        "created_at": "2023-08-19T00:48:15.416Z",
+        "updated_at": "2023-08-18T17:32:06.331Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b8fdaa35-5846-4913-b5da-5b63556fce2c",
+        "title": "Conduct market research",
+        "description": "Gather data and insights on target market",
+        "status": "On Hold",
+        "created_at": "2023-08-18T13:54:12.821Z",
+        "updated_at": "2023-08-18T11:51:50.242Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6af391d4-b2f8-41a2-90ff-acaadff6a850",
+        "title": "Implement software updates",
+        "description": "Test and deploy software updates",
+        "status": "Cancelled",
+        "created_at": "2023-08-19T05:57:16.191Z",
+        "updated_at": "2023-08-18T13:03:41.542Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "member": [
+      {
+        "id": "5f01e0f0-4c91-4a61-8f56-2714c45fbc22",
+        "role": "Manager",
+        "status": "Active",
+        "created_at": "2023-08-18T11:04:23.926Z",
+        "updated_at": "2023-08-18T16:04:23.803Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d65c855f-b1d2-41f6-b794-27f080f8a60e",
+        "role": "Developer",
+        "status": "Inactive",
+        "created_at": "2023-08-18T11:04:46.805Z",
+        "updated_at": "2023-08-18T14:13:09.369Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "52892fcf-4509-4703-88d5-b48a9bacb589",
+        "role": "Designer",
+        "status": "Pending",
+        "created_at": "2023-08-19T07:29:58.440Z",
+        "updated_at": "2023-08-18T19:44:48.653Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "907bef49-f7c2-4c91-b75d-a70ff43f0c35",
+        "role": "Analyst",
+        "status": "Suspended",
+        "created_at": "2023-08-19T04:20:25.216Z",
+        "updated_at": "2023-08-18T23:09:14.720Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1095ead9-f5cc-427a-9f55-7266fbea2712",
+        "role": "Consultant",
+        "status": "Blocked",
+        "created_at": "2023-08-19T10:01:44.431Z",
+        "updated_at": "2023-08-18T15:04:42.974Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "2d85d0dc-12bd-4372-bd8f-94f829c1ae8d",
+        "status": "Sent",
+        "created_at": "2023-08-19T00:10:23.921Z",
+        "updated_at": "2023-08-18T23:37:25.701Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f3c3d53-a803-45a7-8196-f47271702b92",
+        "status": "Accepted",
+        "created_at": "2023-08-19T05:50:17.901Z",
+        "updated_at": "2023-08-18T15:28:37.960Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "284fc03c-336e-4bf4-b939-228a3047c0cf",
+        "status": "Declined",
+        "created_at": "2023-08-19T05:46:33.379Z",
+        "updated_at": "2023-08-19T01:14:25.515Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "330cfba6-b829-4024-882c-827e93f2fee8",
+        "status": "Expired",
+        "created_at": "2023-08-18T17:51:35.225Z",
+        "updated_at": "2023-08-18T17:22:13.724Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3cec2d4d-c4e3-44f4-9e27-9ff6757817d5",
+        "status": "Cancelled",
+        "created_at": "2023-08-18T10:39:29.611Z",
+        "updated_at": "2023-08-19T02:01:31.711Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ftp_setting": [
+      {
+        "id": "c457d223-5112-4a11-a0e7-9e15cec87f84",
+        "host": "ftp.example.com",
+        "port": 93107,
+        "username": "user1",
+        "password": "pass123",
+        "created_at": "2023-08-19T09:03:18.993Z",
+        "updated_at": "2023-08-18T14:00:47.029Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "df68492b-cc54-46d6-bd80-9a8e9c8f17ab",
+        "host": "ftp.server.com",
+        "port": 86097,
+        "username": "user2",
+        "password": "pass456",
+        "created_at": "2023-08-19T07:22:33.057Z",
+        "updated_at": "2023-08-18T14:00:15.696Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a187041e-5e51-4908-bb76-490eb5d1e46e",
+        "host": "ftp.domain.com",
+        "port": 52518,
+        "username": "user3",
+        "password": "pass789",
+        "created_at": "2023-08-19T00:47:17.685Z",
+        "updated_at": "2023-08-18T17:09:47.468Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6fd90f00-e352-4559-9691-d69cd22ef8df",
+        "host": "ftp.test.com",
+        "port": 75425,
+        "username": "user4",
+        "password": "passabc",
+        "created_at": "2023-08-18T21:11:34.894Z",
+        "updated_at": "2023-08-19T09:38:37.907Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8597c580-57e7-45eb-9053-0b2b316459a4",
+        "host": "ftp.demo.com",
+        "port": 62291,
+        "username": "user5",
+        "password": "passxyz",
+        "created_at": "2023-08-19T03:16:23.817Z",
+        "updated_at": "2023-08-18T18:29:19.827Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3e45e9f8-f20f-402d-811a-456acd9127dd",
+        "email": "Glennie43@yahoo.com",
+        "firstName": "Jo",
+        "lastName": "Steuber-Rolfson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68849701",
+        "tenantId": null
+      },
+      {
+        "reference": "9901353f-e446-418f-b95d-503981971fdc",
+        "email": "Amanda_Morar68@hotmail.com",
+        "firstName": "Trevor",
+        "lastName": "Strosin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/705.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d3b98644-7259-42ec-97cc-a9dd378ecdc3",
+        "email": "Ivory_Ryan85@gmail.com",
+        "firstName": "Dawson",
+        "lastName": "Bayer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1185.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "40fba2fb-2a8f-4feb-bf5f-48fb59e45e99",
+        "email": "Gino_Schinner@gmail.com",
+        "firstName": "Estelle",
+        "lastName": "Blanda",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/671.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "84c83d13-c6d9-49bd-a55a-16c82016fa2d",
+        "email": "Declan_OConner67@gmail.com",
+        "firstName": "Rollin",
+        "lastName": "Rodriguez",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16645313",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "task": [
+      {
+        "id": "5b2efb02-bd85-4126-85b2-ea042ef43995",
+        "title": "Complete project report",
+        "description": "Lorem ipsum dolor sit amet",
+        "status": "Pending",
+        "created_at": "2023-08-19T08:04:44.389Z",
+        "updated_at": "2023-08-19T00:48:45.153Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "afb8265a-46fe-426c-ad26-bd2ea6fd34fd",
+        "title": "Review marketing strategy",
+        "description": "Consectetur adipiscing elit",
+        "status": "In Progress",
+        "created_at": "2023-08-19T07:53:30.854Z",
+        "updated_at": "2023-08-19T08:01:31.499Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c145a658-c89d-4e5d-aecb-b3ecaf990ac4",
+        "title": "Fix bug in software",
+        "description": "Sed do eiusmod tempor incididunt",
+        "status": "Completed",
+        "created_at": "2023-08-18T13:45:39.854Z",
+        "updated_at": "2023-08-18T17:39:38.155Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c7f2162-d0d0-4316-819a-2ac3ffe6c602",
+        "title": "Create new website design",
+        "description": "Ut labore et dolore magna aliqua",
+        "status": "On Hold",
+        "created_at": "2023-08-19T02:52:37.005Z",
+        "updated_at": "2023-08-18T11:00:34.599Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "80423e8d-0794-4248-94f0-9608c6795425",
+        "title": "Implement new feature",
+        "description": "Ut enim ad minim veniam",
+        "status": "Cancelled",
+        "created_at": "2023-08-19T03:35:43.979Z",
+        "updated_at": "2023-08-18T11:33:23.988Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "member": [
+      {
+        "id": "f554acb5-2c50-46f8-ac4a-3edb5a50ed67",
+        "role": "Admin",
+        "status": "Active",
+        "created_at": "2023-08-18T16:47:31.474Z",
+        "updated_at": "2023-08-19T06:22:37.075Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a3db07c-ea4e-4a98-8d20-8d1396adc85f",
+        "role": "Manager",
+        "status": "Inactive",
+        "created_at": "2023-08-18T11:07:31.314Z",
+        "updated_at": "2023-08-18T18:37:33.894Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "36f91c91-e71c-40b0-8879-f79299067b7d",
+        "role": "Employee",
+        "status": "Pending",
+        "created_at": "2023-08-19T05:37:12.666Z",
+        "updated_at": "2023-08-19T09:10:46.245Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d1ae6d6b-f048-461f-9939-91a048a1c558",
+        "role": "Consultant",
+        "status": "Suspended",
+        "created_at": "2023-08-18T13:21:02.259Z",
+        "updated_at": "2023-08-18T15:39:05.004Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cd6c411d-653f-4479-bbb3-d8b74a995308",
+        "role": "Intern",
+        "status": "Terminated",
+        "created_at": "2023-08-19T02:09:32.023Z",
+        "updated_at": "2023-08-19T09:45:00.448Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "02f22b52-ece2-4920-834e-71a2909469c8",
+        "status": "Sent",
+        "created_at": "2023-08-19T10:13:05.435Z",
+        "updated_at": "2023-08-19T06:02:34.660Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d2b918a-4acd-4718-a0f9-1a44b28cc29d",
+        "status": "Accepted",
+        "created_at": "2023-08-18T15:19:57.578Z",
+        "updated_at": "2023-08-19T08:34:00.853Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7eeec129-9497-421c-b905-69db3c5070b8",
+        "status": "Declined",
+        "created_at": "2023-08-19T02:04:08.758Z",
+        "updated_at": "2023-08-19T06:04:58.121Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e30266c6-b214-4d66-b15e-5de6b750514b",
+        "status": "Expired",
+        "created_at": "2023-08-18T20:26:53.261Z",
+        "updated_at": "2023-08-18T21:58:19.890Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "acdd5a19-e7c2-44cd-942c-cf30beb0b6ee",
+        "status": "Cancelled",
+        "created_at": "2023-08-18T17:08:01.427Z",
+        "updated_at": "2023-08-18T19:02:29.683Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ftp_setting": [
+      {
+        "id": "b9729a5f-96f6-48cd-bcb2-4efdd746f68f",
+        "host": "ftp.example.com",
+        "port": 85380,
+        "username": "user1",
+        "password": "pass123",
+        "created_at": "2023-08-18T20:17:56.555Z",
+        "updated_at": "2023-08-18T13:37:58.844Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "389e3863-f448-432c-ae2f-de263d85f461",
+        "host": "ftp.server.com",
+        "port": 68699,
+        "username": "user2",
+        "password": "password456",
+        "created_at": "2023-08-19T01:55:18.313Z",
+        "updated_at": "2023-08-19T06:43:40.091Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f3e8a645-f532-44bd-afef-40394d2df48b",
+        "host": "ftp.domain.com",
+        "port": 54591,
+        "username": "user3",
+        "password": "secret789",
+        "created_at": "2023-08-19T01:46:19.856Z",
+        "updated_at": "2023-08-19T08:10:24.845Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5c04d71b-3535-480c-83bb-5df033469683",
+        "host": "ftp.test.com",
+        "port": 75807,
+        "username": "user4",
+        "password": "secure123",
+        "created_at": "2023-08-18T22:42:39.685Z",
+        "updated_at": "2023-08-18T17:23:09.068Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ddc70ed0-1aa8-4834-9a46-10b95a7046ac",
+        "host": "ftp.demo.com",
+        "port": 21516,
+        "username": "user5",
+        "password": "access456",
+        "created_at": "2023-08-18T13:02:29.171Z",
+        "updated_at": "2023-08-18T15:55:02.511Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2d9921d4-ff6d-4de8-becb-885879d3fb3e",
+        "email": "Libby_Prohaska34@gmail.com",
+        "firstName": "Ladarius",
+        "lastName": "Schulist",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87003775",
+        "tenantId": null
+      },
+      {
+        "reference": "1a971397-85b8-459e-a02b-98683f85b8c0",
+        "email": "Sammie71@yahoo.com",
+        "firstName": "Casimer",
+        "lastName": "Hyatt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84258238",
+        "tenantId": null
+      },
+      {
+        "reference": "b49b14a2-3310-4f0d-a83c-753aa8e09cfa",
+        "email": "Hettie_Rippin90@hotmail.com",
+        "firstName": "Leo",
+        "lastName": "Cummings",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4506528",
+        "tenantId": null
+      },
+      {
+        "reference": "29130537-611b-4e62-96e5-6bd3c8bd0763",
+        "email": "Kirstin.Windler@yahoo.com",
+        "firstName": "Dayana",
+        "lastName": "Hackett",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50742272",
+        "tenantId": null
+      },
+      {
+        "reference": "2db1bf0c-9052-4b95-afec-3129a3a35286",
+        "email": "Darien.Johnson-Reichert81@yahoo.com",
+        "firstName": "Felton",
+        "lastName": "Durgan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/955.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "task": [
+      {
+        "id": "93857456-7e51-4d25-b187-2be79d2b16d7",
+        "title": "Complete project report",
+        "description": "Lorem ipsum dolor sit amet",
+        "status": "Pending",
+        "created_at": "2023-08-18T15:26:48.914Z",
+        "updated_at": "2023-08-18T18:57:33.680Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "625d306d-b4ce-498d-8ebb-d42e41a7c71b",
+        "title": "Fix bug in code",
+        "description": "Consectetur adipiscing elit",
+        "status": "In Progress",
+        "created_at": "2023-08-18T20:31:22.967Z",
+        "updated_at": "2023-08-19T09:26:10.607Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c4398e0-145a-4036-9a87-2e0280897611",
+        "title": "Create new feature",
+        "description": "Sed do eiusmod tempor incididunt",
+        "status": "Completed",
+        "created_at": "2023-08-19T02:48:08.424Z",
+        "updated_at": "2023-08-18T15:15:55.527Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9feace9-175a-4e3e-a57f-c4614e19f120",
+        "title": "Test application",
+        "description": "Ut labore et dolore magna aliqua",
+        "status": "On Hold",
+        "created_at": "2023-08-19T09:55:38.565Z",
+        "updated_at": "2023-08-19T09:08:18.157Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6625d29b-7b68-459e-8c0f-daee91904ec7",
+        "title": "Review design mockups",
+        "description": "Ut enim ad minim veniam",
+        "status": "Cancelled",
+        "created_at": "2023-08-18T11:35:41.256Z",
+        "updated_at": "2023-08-18T13:57:35.337Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "member": [
+      {
+        "id": "ed301839-b4ce-463d-ba13-6ecc4dbeed86",
+        "role": "Admin",
+        "status": "Active",
+        "created_at": "2023-08-18T19:23:53.941Z",
+        "updated_at": "2023-08-18T21:47:32.546Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "da2013f4-3d44-4f36-a9fb-8547f526b3c7",
+        "role": "Manager",
+        "status": "Inactive",
+        "created_at": "2023-08-18T21:33:29.533Z",
+        "updated_at": "2023-08-18T20:27:23.241Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d7d00356-f4dc-4cf2-b6dc-5c8ba236c940",
+        "role": "Developer",
+        "status": "Pending",
+        "created_at": "2023-08-18T19:10:59.144Z",
+        "updated_at": "2023-08-18T21:01:01.443Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6aa3c1e8-56c5-4a77-9439-d6b5da43ab81",
+        "role": "Designer",
+        "status": "Blocked",
+        "created_at": "2023-08-18T12:02:28.953Z",
+        "updated_at": "2023-08-18T10:55:38.990Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "99e162f5-3aad-4093-be7f-454e5d9beccd",
+        "role": "Tester",
+        "status": "Suspended",
+        "created_at": "2023-08-18T19:24:15.822Z",
+        "updated_at": "2023-08-18T11:57:40.954Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "c4d1fe1b-cdec-4c97-9b19-67f23b549f41",
+        "status": "Sent",
+        "created_at": "2023-08-19T06:06:31.040Z",
+        "updated_at": "2023-08-19T03:36:20.940Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79388b91-aaac-472a-bd9e-700c56ef51ef",
+        "status": "Accepted",
+        "created_at": "2023-08-19T02:10:51.134Z",
+        "updated_at": "2023-08-18T23:12:50.816Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca1aab9b-d337-4ed3-bd00-8bea2fd289e1",
+        "status": "Declined",
+        "created_at": "2023-08-18T22:40:02.042Z",
+        "updated_at": "2023-08-18T22:08:53.663Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4279f257-6213-44a7-9381-af5a9dd75c9b",
+        "status": "Expired",
+        "created_at": "2023-08-18T12:01:42.039Z",
+        "updated_at": "2023-08-19T00:30:20.065Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "547741f9-b5b8-46be-949c-a0724debeb04",
+        "status": "Cancelled",
+        "created_at": "2023-08-18T18:00:46.045Z",
+        "updated_at": "2023-08-18T19:48:04.533Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ftp_setting": [
+      {
+        "id": "12dea205-736c-4636-a82c-8308a5733192",
+        "host": "ftp.example.com",
+        "port": 15992,
+        "username": "john_doe",
+        "password": "p@ssw0rd",
+        "created_at": "2023-08-18T21:20:35.255Z",
+        "updated_at": "2023-08-18T15:12:03.258Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "15300ad0-b367-460e-8b3c-1a8341b4f59c",
+        "host": "ftp.server.com",
+        "port": 93700,
+        "username": "jane_smith",
+        "password": "secretpassword",
+        "created_at": "2023-08-19T08:01:22.388Z",
+        "updated_at": "2023-08-18T23:37:34.331Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a9a40684-a46d-4f09-9ccc-d8c5af89e064",
+        "host": "myftp.com",
+        "port": 23646,
+        "username": "michael_brown",
+        "password": "12345678",
+        "created_at": "2023-08-18T14:20:53.689Z",
+        "updated_at": "2023-08-19T06:15:15.852Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "575d4dbc-2232-49f1-b78c-a2107d2e1e2f",
+        "host": "filetransfer.net",
+        "port": 74307,
+        "username": "sarah_jones",
+        "password": "password123",
+        "created_at": "2023-08-18T23:00:14.281Z",
+        "updated_at": "2023-08-19T06:04:25.972Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fad9b2cd-266f-419f-aab6-208b3bf73b03",
+        "host": "dataexchange.org",
+        "port": 3243,
+        "username": "robert_wilson",
+        "password": "qwertyuiop",
+        "created_at": "2023-08-19T01:15:49.026Z",
+        "updated_at": "2023-08-19T00:55:54.911Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ecbda2f1-a694-476d-90fa-d3af5c2fade4",
+        "email": "Frankie_Mante64@hotmail.com",
+        "firstName": "Corbin",
+        "lastName": "Senger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9600298",
+        "tenantId": null
+      },
+      {
+        "reference": "b623623b-f2c1-495c-92f5-09f6435987ea",
+        "email": "Erika_West@hotmail.com",
+        "firstName": "Dock",
+        "lastName": "Wehner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53608676",
+        "tenantId": null
+      },
+      {
+        "reference": "3c74908e-1705-48f7-a461-7420d3389268",
+        "email": "Yessenia.Labadie20@hotmail.com",
+        "firstName": "Enola",
+        "lastName": "Kshlerin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28974320",
+        "tenantId": null
+      },
+      {
+        "reference": "94d62f5f-6f57-4661-827a-cb91fc6a8008",
+        "email": "Janiya_OConnell28@gmail.com",
+        "firstName": "Joana",
+        "lastName": "Steuber",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/221.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8505b4c1-8b9d-491b-8558-0e1bacc1ed35",
+        "email": "Dereck97@gmail.com",
+        "firstName": "Sydney",
+        "lastName": "Hills",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1057.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "task": [
+      {
+        "id": "13ee5525-38d3-4e24-a062-264c89a508f0",
+        "title": "Complete project report",
+        "description": "This task involves analyzing data and generating insights",
+        "status": "Pending",
+        "created_at": "2023-08-19T01:01:28.028Z",
+        "updated_at": "2023-08-18T11:50:47.805Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c45a18d9-4ba9-42de-8f52-312dfad1d298",
+        "title": "Review marketing strategy",
+        "description": "The task requires collaboration with the marketing team",
+        "status": "In progress",
+        "created_at": "2023-08-18T10:59:57.091Z",
+        "updated_at": "2023-08-19T09:18:51.416Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4f666715-a632-4b7f-bf1f-004a01e4e74f",
+        "title": "Fix website bugs",
+        "description": "Fixing bugs in the website to improve user experience",
+        "status": "Completed",
+        "created_at": "2023-08-19T09:45:43.969Z",
+        "updated_at": "2023-08-18T19:16:59.976Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5aac724d-a728-452e-bc58-3b33e701c6be",
+        "title": "Create new product design",
+        "description": "Designing a new product based on market research",
+        "status": "On hold",
+        "created_at": "2023-08-19T01:27:30.941Z",
+        "updated_at": "2023-08-18T13:38:21.014Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b6901fe9-9e04-4cea-8f2a-2aeee8c40463",
+        "title": "Implement data analysis",
+        "description": "Performing data analysis to identify trends and patterns",
+        "status": "Cancelled",
+        "created_at": "2023-08-18T16:23:19.199Z",
+        "updated_at": "2023-08-19T09:55:51.401Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "member": [
+      {
+        "id": "83dbbf43-c25a-45cf-b8a3-60f453c740d7",
+        "role": "Admin",
+        "status": "Active",
+        "created_at": "2023-08-19T02:39:00.139Z",
+        "updated_at": "2023-08-18T21:02:37.828Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed57a3b1-8445-4fde-877e-2d14863382cc",
+        "role": "Manager",
+        "status": "Inactive",
+        "created_at": "2023-08-18T22:04:05.370Z",
+        "updated_at": "2023-08-18T15:27:23.354Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "87a5b079-b3e6-4199-977c-ac2ad509fadf",
+        "role": "Developer",
+        "status": "Pending",
+        "created_at": "2023-08-18T21:34:25.272Z",
+        "updated_at": "2023-08-18T11:10:40.667Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b2f63d2d-a4bf-42c4-83b8-99e35c526529",
+        "role": "Designer",
+        "status": "Blocked",
+        "created_at": "2023-08-19T03:08:48.237Z",
+        "updated_at": "2023-08-19T08:02:26.475Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92c85f22-aa95-4c02-ab14-d3bc516167d4",
+        "role": "Tester",
+        "status": "Suspended",
+        "created_at": "2023-08-18T20:19:49.913Z",
+        "updated_at": "2023-08-18T18:13:56.673Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "1d654128-f5ee-4dc1-9777-a13c0972f737",
+        "status": "Sent",
+        "created_at": "2023-08-18T19:37:05.523Z",
+        "updated_at": "2023-08-19T08:05:47.994Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c985db9-2d24-4025-8082-86a37e46bd1e",
+        "status": "Accepted",
+        "created_at": "2023-08-18T13:58:28.576Z",
+        "updated_at": "2023-08-18T10:56:20.593Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "75c5b8e8-b787-4cba-9f40-2d216eba674b",
+        "status": "Declined",
+        "created_at": "2023-08-18T21:23:25.348Z",
+        "updated_at": "2023-08-19T00:37:43.721Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4c2b871-a0fb-4eb9-b1a3-61a877f9eab8",
+        "status": "Expired",
+        "created_at": "2023-08-19T04:27:34.605Z",
+        "updated_at": "2023-08-18T15:03:06.353Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c63a4405-bdf9-479c-a6fd-ae3207702a76",
+        "status": "Cancelled",
+        "created_at": "2023-08-18T18:24:59.069Z",
+        "updated_at": "2023-08-19T08:26:48.276Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ftp_setting": [
+      {
+        "id": "f284d382-0274-4d1d-a21f-4911972d22c3",
+        "host": "ftp.example.com",
+        "port": 83391,
+        "username": "user1",
+        "password": "pass123",
+        "created_at": "2023-08-18T18:59:04.223Z",
+        "updated_at": "2023-08-18T18:16:43.993Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "af405286-b217-4f7e-9716-c0bbaa16f80c",
+        "host": "ftp.test.com",
+        "port": 56128,
+        "username": "user2",
+        "password": "pass456",
+        "created_at": "2023-08-18T23:05:13.093Z",
+        "updated_at": "2023-08-18T17:33:32.505Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2fec254e-e4af-4396-a74d-473a9121c424",
+        "host": "ftp.demo.com",
+        "port": 9390,
+        "username": "user3",
+        "password": "pass789",
+        "created_at": "2023-08-18T18:48:38.381Z",
+        "updated_at": "2023-08-19T01:06:10.819Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2798f6bb-20c6-4591-b772-505b2b988b68",
+        "host": "ftp.server.com",
+        "port": 80933,
+        "username": "user4",
+        "password": "passabc",
+        "created_at": "2023-08-18T11:39:42.050Z",
+        "updated_at": "2023-08-18T19:30:30.000Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5e43e532-185d-4358-bf99-6468b9b29d05",
+        "host": "ftp.production.com",
+        "port": 58637,
+        "username": "user5",
+        "password": "passxyz",
+        "created_at": "2023-08-19T03:01:45.474Z",
+        "updated_at": "2023-08-18T23:41:15.164Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "75917d9a-187f-4957-85a1-e6ba754cf68c",
+        "email": "Chad26@gmail.com",
+        "firstName": "Oswaldo",
+        "lastName": "Cummerata",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34694459",
+        "tenantId": null
+      },
+      {
+        "reference": "b592fa74-3271-4a9c-a85b-7b7f26ed3307",
+        "email": "Johnathon.Nolan-Kovacek49@hotmail.com",
+        "firstName": "Mabelle",
+        "lastName": "Jacobson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5865187",
+        "tenantId": null
+      },
+      {
+        "reference": "b50d1e91-6cc3-40bc-b236-6db2d044751d",
+        "email": "Merritt.Swaniawski57@gmail.com",
+        "firstName": "Enos",
+        "lastName": "Kutch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/459.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3f455152-2246-43e8-b60c-130964ee63c0",
+        "email": "Rodrick_Ledner16@yahoo.com",
+        "firstName": "Elsa",
+        "lastName": "Halvorson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54670280",
+        "tenantId": null
+      },
+      {
+        "reference": "c1e1081e-66a8-4241-bcbb-a32d2f839cf3",
+        "email": "Fleta_Dare@yahoo.com",
+        "firstName": "Cleta",
+        "lastName": "Ritchie",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/186.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "task": [
+      {
+        "id": "9bdb2342-8b47-4daa-ad6e-a826efae7699",
+        "title": "Complete Project Report",
+        "description": "Lorem ipsum dolor sit amet",
+        "status": "Pending",
+        "created_at": "2023-08-18T15:12:49.531Z",
+        "updated_at": "2023-08-19T06:23:51.352Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9204954e-2012-4afd-b153-8f3f91d6e729",
+        "title": "Update Website Content",
+        "description": "Consectetur adipiscing elit",
+        "status": "In Progress",
+        "created_at": "2023-08-19T01:44:11.751Z",
+        "updated_at": "2023-08-19T05:32:26.086Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7213c269-1c53-4bbb-891a-fbbd1300afdb",
+        "title": "Prepare Sales Presentation",
+        "description": "Sed do eiusmod tempor incididunt",
+        "status": "Completed",
+        "created_at": "2023-08-19T00:51:51.191Z",
+        "updated_at": "2023-08-19T09:39:06.693Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "186f3a46-6a0c-4eab-ae0f-4e0ec0dddf45",
+        "title": "Fix Bug in Software",
+        "description": "Ut labore et dolore magna aliqua",
+        "status": "On Hold",
+        "created_at": "2023-08-18T23:17:59.508Z",
+        "updated_at": "2023-08-19T09:38:06.698Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b25d1d7b-7498-4998-bf9d-145f6e6a04aa",
+        "title": "Research Market Trends",
+        "description": "Ut enim ad minim veniam",
+        "status": "Cancelled",
+        "created_at": "2023-08-19T02:17:24.256Z",
+        "updated_at": "2023-08-18T22:39:44.510Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "member": [
+      {
+        "id": "bf9680c1-9c36-4019-8778-60ca221144dd",
+        "role": "Manager",
+        "status": "Active",
+        "created_at": "2023-08-19T08:05:20.374Z",
+        "updated_at": "2023-08-19T03:37:42.299Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62fd9018-0a0d-4ae6-adc0-f9edc6aa2830",
+        "role": "Team Lead",
+        "status": "Inactive",
+        "created_at": "2023-08-19T01:46:00.773Z",
+        "updated_at": "2023-08-18T22:12:17.198Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1485803d-eac1-4d1f-a593-193aa6007cfd",
+        "role": "Developer",
+        "status": "Pending",
+        "created_at": "2023-08-18T22:22:04.839Z",
+        "updated_at": "2023-08-19T02:13:33.995Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7cc7f492-4b16-4db3-bf7e-101729e20a8c",
+        "role": "Designer",
+        "status": "Suspended",
+        "created_at": "2023-08-19T07:31:20.755Z",
+        "updated_at": "2023-08-19T03:20:04.840Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2b8e07ce-8942-4b0b-ae10-80d30b98502c",
+        "role": "Analyst",
+        "status": "Blocked",
+        "created_at": "2023-08-18T15:48:12.229Z",
+        "updated_at": "2023-08-18T18:30:29.167Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "dfb66325-2edb-493e-95de-4d6ae6d249ac",
+        "status": "Sent",
+        "created_at": "2023-08-18T10:54:25.658Z",
+        "updated_at": "2023-08-19T07:25:00.140Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4929f7d2-9ff9-4f96-9d0b-3da6b8df355e",
+        "status": "Accepted",
+        "created_at": "2023-08-18T14:14:21.738Z",
+        "updated_at": "2023-08-18T13:47:08.920Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9fb44698-3ddc-49c4-a538-d8741ef489c1",
+        "status": "Declined",
+        "created_at": "2023-08-19T05:52:29.772Z",
+        "updated_at": "2023-08-18T14:15:03.713Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0243886b-27f0-46a8-aea4-d11bd23d694f",
+        "status": "Expired",
+        "created_at": "2023-08-18T15:10:24.063Z",
+        "updated_at": "2023-08-19T09:32:07.487Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ce5012d-f254-4d66-95ed-12dfd7bef204",
+        "status": "Cancelled",
+        "created_at": "2023-08-18T17:50:09.617Z",
+        "updated_at": "2023-08-19T05:38:05.749Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ftp_setting": [
+      {
+        "id": "b705a6ff-8ac8-4ec5-a634-0d6a89f6ef69",
+        "host": "ftp.example.com",
+        "port": 95320,
+        "username": "user1",
+        "password": "pass123",
+        "created_at": "2023-08-19T02:09:02.969Z",
+        "updated_at": "2023-08-18T22:28:59.582Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6f2f7aa0-4d69-4470-8c90-fcbf320d26f0",
+        "host": "ftp.server.com",
+        "port": 92104,
+        "username": "user2",
+        "password": "password456",
+        "created_at": "2023-08-18T23:55:14.821Z",
+        "updated_at": "2023-08-18T14:23:55.844Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6ae5d415-6042-4fc6-a5f7-527f794c89f1",
+        "host": "myftpserver.com",
+        "port": 77592,
+        "username": "user3",
+        "password": "securepass",
+        "created_at": "2023-08-18T19:25:35.139Z",
+        "updated_at": "2023-08-19T05:23:30.683Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c745543a-c050-4c0a-a946-bffeabcd8b4c",
+        "host": "ftp.testsite.com",
+        "port": 62536,
+        "username": "user4",
+        "password": "ftp@123",
+        "created_at": "2023-08-18T15:40:35.975Z",
+        "updated_at": "2023-08-18T23:45:41.206Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8ed48a93-eb26-458e-ad4a-b76bf92429e1",
+        "host": "ftp.demo.net",
+        "port": 39762,
+        "username": "user5",
+        "password": "test123",
+        "created_at": "2023-08-19T08:47:48.985Z",
+        "updated_at": "2023-08-18T10:24:11.211Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1789141b-c8dc-4400-8e91-a3120ce2e975",
+        "email": "Davion.Kuhic@hotmail.com",
+        "firstName": "Asia",
+        "lastName": "Friesen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/317.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b4c235af-d408-41f1-a524-829ea5b37e68",
+        "email": "Brian0@hotmail.com",
+        "firstName": "Rahul",
+        "lastName": "Wolf",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/252.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3ce26f49-1672-4a05-9f1a-b2b587f2bd41",
+        "email": "Zachary.Bernier73@yahoo.com",
+        "firstName": "Otis",
+        "lastName": "Durgan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54763468",
+        "tenantId": null
+      },
+      {
+        "reference": "369ba534-5ecc-4fe2-8529-f3e8cffe08d5",
+        "email": "Kurtis.Senger@yahoo.com",
+        "firstName": "Gladyce",
+        "lastName": "Dickinson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40448705",
+        "tenantId": null
+      },
+      {
+        "reference": "cd32ff33-396c-421b-9c1f-a53790b3f111",
+        "email": "Sophie87@yahoo.com",
+        "firstName": "Dallas",
+        "lastName": "Bruen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1091.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "task": [
+      {
+        "id": "6add0fae-779f-4232-bbaa-882d660c267c",
+        "title": "Complete project report",
+        "description": "Lorem ipsum dolor sit amet",
+        "status": "Pending",
+        "created_at": "2023-08-19T04:48:04.664Z",
+        "updated_at": "2023-08-19T01:38:09.294Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5892ae20-5cef-4427-9b98-54fa0c727b94",
+        "title": "Update website content",
+        "description": "Consectetur adipiscing elit",
+        "status": "In Progress",
+        "created_at": "2023-08-19T08:30:58.314Z",
+        "updated_at": "2023-08-18T10:45:59.025Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "86306956-17e0-4957-94b6-359f1c6f929b",
+        "title": "Fix bug in software",
+        "description": "Sed do eiusmod tempor incididunt",
+        "status": "Completed",
+        "created_at": "2023-08-19T06:32:18.166Z",
+        "updated_at": "2023-08-18T11:37:43.338Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b335f80-417c-4985-bc2b-3163d442f4e7",
+        "title": "Create marketing campaign",
+        "description": "Ut labore et dolore magna aliqua",
+        "status": "On Hold",
+        "created_at": "2023-08-18T21:00:46.760Z",
+        "updated_at": "2023-08-19T02:40:36.848Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "df4d554f-8519-47a6-84cc-cc0c3434996d",
+        "title": "Implement new feature",
+        "description": "Ut enim ad minim veniam",
+        "status": "Cancelled",
+        "created_at": "2023-08-19T08:10:48.584Z",
+        "updated_at": "2023-08-19T03:15:26.168Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "member": [
+      {
+        "id": "d6c32099-4348-4a5b-bc02-0ffa13317a11",
+        "role": "Admin",
+        "status": "Active",
+        "created_at": "2023-08-19T02:18:02.020Z",
+        "updated_at": "2023-08-18T21:30:51.704Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "978ada02-db3a-438a-bf73-72bad64a2171",
+        "role": "Manager",
+        "status": "Inactive",
+        "created_at": "2023-08-18T13:27:48.883Z",
+        "updated_at": "2023-08-19T00:41:05.090Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c410525-5902-49c5-8147-171c3b22d956",
+        "role": "Developer",
+        "status": "Pending",
+        "created_at": "2023-08-18T22:16:46.434Z",
+        "updated_at": "2023-08-19T07:49:08.527Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac65c6d6-c82e-4af8-b6eb-660598c66e91",
+        "role": "Designer",
+        "status": "Blocked",
+        "created_at": "2023-08-18T23:42:45.010Z",
+        "updated_at": "2023-08-19T09:05:27.411Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "24b6781d-8932-4141-8c5c-c4980f3eed32",
+        "role": "Tester",
+        "status": "Suspended",
+        "created_at": "2023-08-19T04:20:08.320Z",
+        "updated_at": "2023-08-19T02:51:30.865Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "ebaa313b-9c28-4403-b4ed-59a3d9ca902e",
+        "status": "Sent",
+        "created_at": "2023-08-18T12:56:17.229Z",
+        "updated_at": "2023-08-19T00:22:01.774Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "acb4e9b4-a5dc-4406-b8d6-5407cc201a0f",
+        "status": "Accepted",
+        "created_at": "2023-08-18T21:36:56.014Z",
+        "updated_at": "2023-08-19T04:39:35.526Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4f3fefca-0976-44f2-9370-31e67defa20e",
+        "status": "Declined",
+        "created_at": "2023-08-18T23:38:23.773Z",
+        "updated_at": "2023-08-19T05:57:27.273Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b7edb179-7cd6-47c5-ae5b-3c88d60935c3",
+        "status": "Expired",
+        "created_at": "2023-08-19T02:59:13.656Z",
+        "updated_at": "2023-08-18T21:58:24.433Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7ecebb7a-7021-4dff-875b-dfc563057216",
+        "status": "Cancelled",
+        "created_at": "2023-08-18T13:43:11.956Z",
+        "updated_at": "2023-08-18T15:29:23.165Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ftp_setting": [
+      {
+        "id": "7fddc676-04df-406b-b76b-fdf0fbf62ea5",
+        "host": "ftp.example.com",
+        "port": 24356,
+        "username": "user1",
+        "password": "pass123",
+        "created_at": "2023-08-18T14:59:32.746Z",
+        "updated_at": "2023-08-19T08:18:33.964Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e29c7043-1bdc-4c49-aa3e-8ecd7aa5a9cc",
+        "host": "ftp.domain.com",
+        "port": 83208,
+        "username": "user2",
+        "password": "pass456",
+        "created_at": "2023-08-19T08:24:34.590Z",
+        "updated_at": "2023-08-18T20:41:00.422Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4030fa1c-1efe-4fde-af9e-28db814778ca",
+        "host": "ftp.server.com",
+        "port": 31671,
+        "username": "user3",
+        "password": "pass789",
+        "created_at": "2023-08-18T10:56:00.555Z",
+        "updated_at": "2023-08-19T04:22:01.173Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7bc7ba28-3eda-4b7c-a107-f7de8587f2b3",
+        "host": "ftp.test.com",
+        "port": 5820,
+        "username": "user4",
+        "password": "passabc",
+        "created_at": "2023-08-19T06:16:39.090Z",
+        "updated_at": "2023-08-18T23:29:31.181Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0b21f804-6547-42c5-bf8b-bc3b212b1617",
+        "host": "ftp.demo.com",
+        "port": 43868,
+        "username": "user5",
+        "password": "passxyz",
+        "created_at": "2023-08-18T12:35:06.421Z",
+        "updated_at": "2023-08-19T08:43:02.842Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2fd7be0f-c73a-42cf-80fe-a4995c312f61",
+        "email": "Brenna.Heidenreich@yahoo.com",
+        "firstName": "Michele",
+        "lastName": "Johns",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/29.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "acd92609-38d9-47a9-9898-7002840b702e",
+        "email": "Miguel34@hotmail.com",
+        "firstName": "Taryn",
+        "lastName": "Brakus",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43704081",
+        "tenantId": null
+      },
+      {
+        "reference": "1d5c2aa9-ddfd-4e82-b63f-df977be0f87d",
+        "email": "Vincenzo_Metz@yahoo.com",
+        "firstName": "Fermin",
+        "lastName": "Waters",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/616.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d1e83afb-3015-4994-a700-f05fa4bacd89",
+        "email": "Lucinda.Hackett@hotmail.com",
+        "firstName": "Emery",
+        "lastName": "Nicolas",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/214.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fe14e0fa-39e6-423e-9a6d-bb0ccf078814",
+        "email": "Aryanna.Ernser@hotmail.com",
+        "firstName": "Bart",
+        "lastName": "Haley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/759.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
